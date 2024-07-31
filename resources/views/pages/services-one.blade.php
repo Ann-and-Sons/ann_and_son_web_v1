@@ -38,45 +38,37 @@
         </section>
 
         <section class="w-full mx-auto py-10 bg-gray-50 dark:bg-black dark:text-white">
-            <div class="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-4">
-              <div class="lg:w-[50%] xs:w-full">
-                <img class="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm" src="{{ asset('assets/images/bg/organisational-performance-2.jpg') }}" alt="billboard image" />
-              </div>
-              <div class="lg:w-[50%] sm:w-full xs:w-full bg-gray-100 dark:bg-zinc-950 dark:text-zinc-400 md:p-4 xs:p-0 rounded-md">
-                <h2 class="text-3xl font-semibold text-zinc-950 dark:text-white">People</h2>
-                <p class="text-md mt-4">At the heart of every successful organization lies its people. Our dedicated team of experts works closely with your business to attract,
-                    develop, and retain top talent. We provide comprehensive training programs and personalized coaching that empower employees to reach their full potential.
-                     </p>
-                     <br>
-                    <p>
-                        By fostering a positive and inclusive workplace culture, we ensure that your team is motivated, engaged, and aligned with your company’s values and goals.
-                     Our tailored solutions are designed to enhance collaboration, drive innovation, and create a supportive environment where every individual can thrive.
-                    </p>
-              </div>
+            <div class="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex flex-col md:flex-row lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-4">
+                <div class="lg:w-[50%] w-full">
+                    <img class="rounded-lg w-full" src="{{ asset('assets/images/bg/organisational-performance-2.jpg') }}" alt="billboard image" />
+                </div>
+                <div class="lg:w-[50%] w-full bg-gray-100 dark:bg-zinc-950 dark:text-zinc-400 p-4 rounded-md mt-4 md:mt-0">
+                    <h2 class="text-2xl md:text-3xl font-semibold text-zinc-950 dark:text-white">People</h2>
+                    <p class="text-sm md:text-md mt-4">At the heart of every successful organization lies its people. Our dedicated team of experts works closely with your business to attract, develop, and retain top talent. We provide comprehensive training programs and personalized coaching that empower employees to reach their full potential.</p>
+                    <br>
+                    <p class="text-sm md:text-md">By fostering a positive and inclusive workplace culture, we ensure that your team is motivated, engaged, and aligned with your company’s values and goals. Our tailored solutions are designed to enhance collaboration, drive innovation, and create a supportive environment where every individual can thrive.</p>
+                </div>
             </div>
             <!-- col-2 -->
-            <div class="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-6">
-              <!--  -->
-              <div class="md:hidden sm:block xs:block xs:w-full">
-                <img class="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm" src="{{ asset('assets/images/bg/organisational-performance.jpg') }}" alt="billboard image" />
-              </div>
-              <!--  -->
-              <div class="lg:w-[50%] xs:w-full bg-gray-100 dark:bg-zinc-950 dark:text-zinc-400 md:p-4 xs:p-0 rounded-md">
-                <h2 class="text-3xl font-semibold text-zinc-950 dark:text-white">Organisational Performance</h2>
-
-                <p class="text-md mt-4">Optimizing organizational performance is key to achieving sustainable growth and success. We offer strategic consulting services that
-                     focus on improving efficiency, productivity, and overall effectiveness. Our approach includes a thorough analysis of your current processes,
-                     identifying areas for improvement, and implementing innovative solutions that streamline operations.</p>
-              <p><br> By leveraging data-driven insights and best practices,
-                we help you build a resilient and adaptable organization. Whether it’s through process reengineering, performance management, or technology integration,
-                our goal is to enhance your organizational capabilities and drive measurable results.</p>
-                    </div>
-              <!--  -->
-              <div class="md:block sm:hidden xs:hidden lg:w-[50%] xs:w-full">
-                <img class="lg:rounded-t-lg xs:rounded-sm" src="{{ asset('assets/images/bg/organisational-performance.jpg') }}" alt="billboard image" />
-              </div>
+            <div class="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex flex-col md:flex-row lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-6">
+                <!-- Mobile image -->
+                <div class="w-full md:hidden">
+                    <img class="rounded-lg w-full" src="{{ asset('assets/images/bg/organisational-performance.jpg') }}" alt="billboard image" />
+                </div>
+                <!-- Text content -->
+                <div class="lg:w-[50%] w-full bg-gray-100 dark:bg-zinc-950 dark:text-zinc-400 p-4 rounded-md mt-4 md:mt-0">
+                    <h2 class="text-2xl md:text-3xl font-semibold text-zinc-950 dark:text-white">Organisational Performance</h2>
+                    <p class="text-sm md:text-md mt-4">Optimizing organizational performance is key to achieving sustainable growth and success. We offer strategic consulting services that focus on improving efficiency, productivity, and overall effectiveness. Our approach includes a thorough analysis of your current processes, identifying areas for improvement, and implementing innovative solutions that streamline operations.</p>
+                    <br>
+                    <p class="text-sm md:text-md">By leveraging data-driven insights and best practices, we help you build a resilient and adaptable organization. Whether it’s through process reengineering, performance management, or technology integration, our goal is to enhance your organizational capabilities and drive measurable results.</p>
+                </div>
+                <!-- Desktop image -->
+                <div class="hidden md:block lg:w-[50%] w-full">
+                    <img class="rounded-lg w-full" src="{{ asset('assets/images/bg/organisational-performance.jpg') }}" alt="billboard image" />
+                </div>
             </div>
         </section>
+
 
           <!-- Photo by '@candjstudios' & '@framesforyourheart' on Unsplash -->
 

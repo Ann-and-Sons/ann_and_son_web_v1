@@ -69,30 +69,6 @@
                     standards
                     are at the heart of all we do. We work tirelessly to protect you and your customers.</p>
                 <div class="pt-6 mt-6 space-y-4 border-t border-gray-200 dark:border-gray-700">
-                    <div>
-                        <a href="#"
-                            class="inline-flex items-center text-base font-medium text-white hover:text-gray-500 dark:text-white dark:hover:text-gray-500">
-                            Explore Legality Guide
-                            <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="#"
-                            class="inline-flex items-center text-base font-medium text-white hover:text-gray-500 dark:text-white dark:hover:text-gray-500">
-                            Visit the Trust Center
-                            <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                        </a>
-                    </div>
                 </div>
             </div>
             <div class="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
@@ -253,13 +229,29 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <!-- Team Member 1 -->
                 <div class="col-span-1 md:col-span-3 bg-zinc-950 rounded-lg shadow-md p-4 my-4 text-center">
-                    <img src="https://spacema-dev.com/elevate/assets/images/team/5.jpg" alt="Team Member 1"
+                    <img src="{{ asset('assets/images/team/ann-ababio.jpeg') }}" alt="Team Member 1"
                         class="w-1/4 mx-auto rounded-full mb-2">
                     <h3 class="text-lg text-white font-semibold mb-1">Ann Akua Buruwaa Obeng Ababio</h3>
                     <p class="text-gray-500"> CEO / Board Chairman</p>
 
-                    <button class="open-modal bg-blue-500 text-white rounded p-2 mt-4"
-                        data-target="#myModal1">i</button>
+                    <div class="flex justify-center space-x-4 mt-4">
+                        <a href="https://www.linkedin.com/in/ann-obeng-ababio-292053233/"
+                            class="open-modal bg-black text-white rounded-full p-2 flex items-center justify-center"
+                            target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.272c-.966 0-1.75-.783-1.75-1.75s.784-1.75 1.75-1.75 1.75.783 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.272h-3v-5.306c0-3.178-3-2.932-3 0v5.306h-3v-10h3v1.389c1.396-2.586 6-2.777 6 2.474v6.137z" />
+                            </svg>
+                        </a>
+                        <button
+                            class="open-modal rounded-full p-2 flex items-center justify-center"
+                            data-target="#myModal1">
+                            <svg width="25" height="25px"  viewBox="0 0 24 24" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-.696-3.534c.63 0 1.332-.288 2.196-1.458l.911-1.22a.334.334 0 0 0-.074-.472.38.38 0 0 0-.505.06l-1.475 1.679a.241.241 0 0 1-.279.061.211.211 0 0 1-.12-.244l1.858-7.446a.499.499 0 0 0-.575-.613l-3.35.613a.35.35 0 0 0-.276.258l-.086.334a.25.25 0 0 0 .243.312h1.73l-1.476 5.922c-.054.234-.144.63-.144.918 0 .666.396 1.296 1.422 1.296zm1.83-10.536c.702 0 1.242-.414 1.386-1.044.036-.144.054-.306.054-.414 0-.504-.396-.972-1.134-.972-.702 0-1.242.414-1.386 1.044a1.868 1.868 0 0 0-.054.414c0 .504.396.972 1.134.972z" fill="#ffffff"/>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
 
                 <!-- Team Member 2 -->
@@ -269,22 +261,20 @@
                     <h3 class="text-lg text-white font-semibold mb-1">Benjamin Kwesi Simmons</h3>
                     <p class="text-gray-500">Director Marketing and Business Development</p>
                     <div class="flex justify-center space-x-4 mt-4">
-                        <button
-                            class="open-modal bg-blue-500 text-white rounded-full p-2 flex items-center justify-center"
-                            data-target="#linkedinModal">
+                        <a href="https://www.linkedin.com/in/benjamin-simmons-36597b19b/"
+                            class="open-modal bg-black text-white rounded-full p-2 flex items-center justify-center"
+                            target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24"
                                 fill="currentColor">
                                 <path
                                     d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.272c-.966 0-1.75-.783-1.75-1.75s.784-1.75 1.75-1.75 1.75.783 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.272h-3v-5.306c0-3.178-3-2.932-3 0v5.306h-3v-10h3v1.389c1.396-2.586 6-2.777 6 2.474v6.137z" />
                             </svg>
-                        </button>
+                        </a >
                         <button
-                            class="open-modal bg-black-500 text-white rounded-full p-2 flex items-center justify-center"
-                            data-target="#bioModal">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24"
-                                fill="currentColor">
-                                <path
-                                    d="M12 2c-5.514 0-10 4.486-10 10s4.486 10 10 10 10-4.486 10-10-4.486-10-10-10zm0 3c1.306 0 2.417.835 2.83 2h-5.66c.413-1.165 1.524-2 2.83-2zm-7 7c0-1.838 1.019-3.443 2.526-4.31-.343.739-.526 1.561-.526 2.432v1.614c0 .423.125.818.344 1.148-.908.737-1.344 1.885-1.344 3.116 0 2.281 1.719 4.148 4 4.148 2.281 0 4-1.867 4-4.148 0-1.231-.436-2.379-1.344-3.116.219-.33.344-.725.344-1.148v-1.614c0-.871-.183-1.693-.526-2.432 1.507.867 2.526 2.472 2.526 4.31v1.614c0 .871-.206 1.811-.576 2.61-.065.135-.123.276-.184.419-.632 1.511-2.029 2.553-3.66 2.553-1.631 0-3.028-1.042-3.66-2.553-.061-.143-.119-.284-.184-.419-.37-.799-.576-1.679-.576-2.61v-1.614zm7 8c1.306 0 2.417-.835 2.83-2h-5.66c.413 1.165 1.524 2 2.83 2zm2.526-5c.342-.739.526-1.561.526-2.432v-1.614c0-.423-.125-.818-.344-1.148.908-.737 1.344-1.885 1.344-3.116 0-2.281-1.719-4.148-4-4.148s-4 1.867-4 4.148c0 1.231.436 2.379 1.344 3.116-.219.33-.344.725-.344 1.148v1.614c0 .871.183 1.693.526 2.432-1.507-.867-2.526-2.472-2.526-4.31v-1.614c0-1.838 1.019-3.443 2.526-4.31.343.739.526 1.561.526 2.432v1.614c0 .423-.125.818-.344 1.148.908.737 1.344 1.885 1.344 3.116 0 2.281-1.719 4.148-4 4.148-2.281 0-4-1.867-4-4.148 0-1.231.436-2.379 1.344-3.116-.219-.33-.344-.725-.344-1.148v-1.614c0-.871-.183-1.693-.526-2.432 1.507.867 2.526 2.472 2.526 4.31v1.614c0 .871-.183 1.693-.526 2.432 1.507.867 2.526 2.472 2.526 4.31v1.614z" />
+                            class="open-modal rounded-full p-2 flex items-center justify-center"
+                            data-target="#myModal2">
+                            <svg width="25" height="25px"  viewBox="0 0 24 24" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-.696-3.534c.63 0 1.332-.288 2.196-1.458l.911-1.22a.334.334 0 0 0-.074-.472.38.38 0 0 0-.505.06l-1.475 1.679a.241.241 0 0 1-.279.061.211.211 0 0 1-.12-.244l1.858-7.446a.499.499 0 0 0-.575-.613l-3.35.613a.35.35 0 0 0-.276.258l-.086.334a.25.25 0 0 0 .243.312h1.73l-1.476 5.922c-.054.234-.144.63-.144.918 0 .666.396 1.296 1.422 1.296zm1.83-10.536c.702 0 1.242-.414 1.386-1.044.036-.144.054-.306.054-.414 0-.504-.396-.972-1.134-.972-.702 0-1.242.414-1.386 1.044a1.868 1.868 0 0 0-.054.414c0 .504.396.972 1.134.972z" fill="#ffffff"/>
                             </svg>
                         </button>
                     </div>
@@ -298,29 +288,77 @@
                         class="w-3/4 mx-auto rounded-full mb-2">
                     <h3 class="text-lg text-white font-semibold mb-1">Akosua Constance Ababio</h3>
                     <p class="text-gray-500">Non-Executive Director</p>
-                    <button class="open-modal bg-blue-500 text-white rounded p-2 mt-4"
-                        data-target="#myModal7">i</button>
+                    <div class="flex justify-center space-x-4 mt-4">
+                        <button
+                            class="open-modal bg-black text-white rounded-full p-2 flex items-center justify-center"
+                            data-target="#linkedinModal">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.272c-.966 0-1.75-.783-1.75-1.75s.784-1.75 1.75-1.75 1.75.783 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.272h-3v-5.306c0-3.178-3-2.932-3 0v5.306h-3v-10h3v1.389c1.396-2.586 6-2.777 6 2.474v6.137z" />
+                            </svg>
+                        </button>
+                        <button
+                            class="open-modal rounded-full p-2 flex items-center justify-center"
+                            data-target="#myModal7">
+                            <svg width="25" height="25px"  viewBox="0 0 24 24" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-.696-3.534c.63 0 1.332-.288 2.196-1.458l.911-1.22a.334.334 0 0 0-.074-.472.38.38 0 0 0-.505.06l-1.475 1.679a.241.241 0 0 1-.279.061.211.211 0 0 1-.12-.244l1.858-7.446a.499.499 0 0 0-.575-.613l-3.35.613a.35.35 0 0 0-.276.258l-.086.334a.25.25 0 0 0 .243.312h1.73l-1.476 5.922c-.054.234-.144.63-.144.918 0 .666.396 1.296 1.422 1.296zm1.83-10.536c.702 0 1.242-.414 1.386-1.044.036-.144.054-.306.054-.414 0-.504-.396-.972-1.134-.972-.702 0-1.242.414-1.386 1.044a1.868 1.868 0 0 0-.054.414c0 .504.396.972 1.134.972z" fill="#ffffff"/>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
 
                 <!-- Team Member 4 -->
                 <div class="bg-zinc-950 rounded-lg shadow-md p-4 my-4 text-center">
-                    <img src="https://spacema-dev.com/elevate/assets/images/team/5.jpg" alt="Team Member 4"
+                    <img src="{{ asset('assets/images/team/sarah-danchie.jpeg') }}" alt="Team Member 4"
                         class="w-3/4 mx-auto rounded-full mb-2">
                     <h3 class="text-lg text-white font-semibold mb-1">Sarah-Jane Danchie</h3>
                     <p class="text-gray-500">Executive Director</p>
 
-                    <button class="open-modal bg-blue-500 text-white rounded p-2 mt-4"
-                        data-target="#myModal6">i</button>
+                    <div class="flex justify-center space-x-4 mt-4">
+                        <a href="https://www.linkedin.com/in/sarah-jane-danchie/"
+                            class="open-modal bg-black text-white rounded-full p-2 flex items-center justify-center"
+                            data-target="#linkedinModal">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.272c-.966 0-1.75-.783-1.75-1.75s.784-1.75 1.75-1.75 1.75.783 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.272h-3v-5.306c0-3.178-3-2.932-3 0v5.306h-3v-10h3v1.389c1.396-2.586 6-2.777 6 2.474v6.137z" />
+                            </svg>
+                        </a>
+                        <button
+                            class="open-modal rounded-full p-2 flex items-center justify-center"
+                            data-target="#myModal6">
+                            <svg width="25" height="25px"  viewBox="0 0 24 24" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-.696-3.534c.63 0 1.332-.288 2.196-1.458l.911-1.22a.334.334 0 0 0-.074-.472.38.38 0 0 0-.505.06l-1.475 1.679a.241.241 0 0 1-.279.061.211.211 0 0 1-.12-.244l1.858-7.446a.499.499 0 0 0-.575-.613l-3.35.613a.35.35 0 0 0-.276.258l-.086.334a.25.25 0 0 0 .243.312h1.73l-1.476 5.922c-.054.234-.144.63-.144.918 0 .666.396 1.296 1.422 1.296zm1.83-10.536c.702 0 1.242-.414 1.386-1.044.036-.144.054-.306.054-.414 0-.504-.396-.972-1.134-.972-.702 0-1.242.414-1.386 1.044a1.868 1.868 0 0 0-.054.414c0 .504.396.972 1.134.972z" fill="#ffffff"/>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
 
                 <!-- Team Member 5 -->
                 <div class="bg-zinc-950 rounded-lg shadow-md p-4 my-4 text-center">
-                    <img src="https://spacema-dev.com/elevate/assets/images/team/5.jpg" alt="Team Member 5"
+                    <img src="{{ asset('assets/images/team/clara-fosu.jpeg') }}" alt="Team Member 5"
                         class="w-3/4 mx-auto rounded-full mb-2">
                     <h3 class="text-lg text-white font-semibold mb-1">Mrs Clara Fosu Quaye</h3>
                     <p class="text-gray-500">Non-Executive Director</p>
-                    <button class="open-modal bg-blue-500 text-white rounded p-2 mt-4"
-                        data-target="#myModal5">i</button>
+                    <div class="flex justify-center space-x-4 mt-4">
+                        <a href="https://www.linkedin.com/in/clara-fosu-quaye-b022808/"
+                            class="open-modal bg-black text-white rounded-full p-2 flex items-center justify-center"
+                            data-target="#linkedinModal">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.272c-.966 0-1.75-.783-1.75-1.75s.784-1.75 1.75-1.75 1.75.783 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.272h-3v-5.306c0-3.178-3-2.932-3 0v5.306h-3v-10h3v1.389c1.396-2.586 6-2.777 6 2.474v6.137z" />
+                            </svg>
+                        </a>
+                        <button
+                            class="open-modal rounded-full p-2 flex items-center justify-center"
+                            data-target="#myModal5">
+                            <svg width="25" height="25px"  viewBox="0 0 24 24" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-.696-3.534c.63 0 1.332-.288 2.196-1.458l.911-1.22a.334.334 0 0 0-.074-.472.38.38 0 0 0-.505.06l-1.475 1.679a.241.241 0 0 1-.279.061.211.211 0 0 1-.12-.244l1.858-7.446a.499.499 0 0 0-.575-.613l-3.35.613a.35.35 0 0 0-.276.258l-.086.334a.25.25 0 0 0 .243.312h1.73l-1.476 5.922c-.054.234-.144.63-.144.918 0 .666.396 1.296 1.422 1.296zm1.83-10.536c.702 0 1.242-.414 1.386-1.044.036-.144.054-.306.054-.414 0-.504-.396-.972-1.134-.972-.702 0-1.242.414-1.386 1.044a1.868 1.868 0 0 0-.054.414c0 .504.396.972 1.134.972z" fill="#ffffff"/>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
 
                 <!-- Team Member 6 -->
@@ -330,8 +368,24 @@
                     <h3 class="text-lg text-white font-semibold mb-1">Mr Samuel Opoku</h3>
                     <p class="text-gray-500">Executive Director</p>
 
-                    <button class="open-modal bg-blue-500 text-white rounded p-2 mt-4"
-                        data-target="#myModal4">i</button>
+                    <div class="flex justify-center space-x-4 mt-4">
+                        <button
+                            class="open-modal bg-black text-white rounded-full p-2 flex items-center justify-center"
+                            data-target="#linkedinModal">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.272c-.966 0-1.75-.783-1.75-1.75s.784-1.75 1.75-1.75 1.75.783 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.272h-3v-5.306c0-3.178-3-2.932-3 0v5.306h-3v-10h3v1.389c1.396-2.586 6-2.777 6 2.474v6.137z" />
+                            </svg>
+                        </button>
+                        <button
+                            class="open-modal rounded-full p-2 flex items-center justify-center"
+                            data-target="#myModal4">
+                            <svg width="25" height="25px"  viewBox="0 0 24 24" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-.696-3.534c.63 0 1.332-.288 2.196-1.458l.911-1.22a.334.334 0 0 0-.074-.472.38.38 0 0 0-.505.06l-1.475 1.679a.241.241 0 0 1-.279.061.211.211 0 0 1-.12-.244l1.858-7.446a.499.499 0 0 0-.575-.613l-3.35.613a.35.35 0 0 0-.276.258l-.086.334a.25.25 0 0 0 .243.312h1.73l-1.476 5.922c-.054.234-.144.63-.144.918 0 .666.396 1.296 1.422 1.296zm1.83-10.536c.702 0 1.242-.414 1.386-1.044.036-.144.054-.306.054-.414 0-.504-.396-.972-1.134-.972-.702 0-1.242.414-1.386 1.044a1.868 1.868 0 0 0-.054.414c0 .504.396.972 1.134.972z" fill="#ffffff"/>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
 
                 <!-- Team Member 7 -->
@@ -341,8 +395,24 @@
                     <h3 class="text-lg text-white font-semibold mb-1">Hardi Kamara</h3>
                     <p class="text-gray-500">Executive Director</p>
 
-                    <button class="open-modal bg-blue-500 text-white rounded p-2 mt-4"
-                        data-target="#myModal3">i</button>
+                    <div class="flex justify-center space-x-4 mt-4">
+                        <a href="https://www.linkedin.com/in/hardibabakamara/"
+                            class="open-modal bg-black text-white rounded-full p-2 flex items-center justify-center"
+                            data-target="#linkedinModal">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.272c-.966 0-1.75-.783-1.75-1.75s.784-1.75 1.75-1.75 1.75.783 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.272h-3v-5.306c0-3.178-3-2.932-3 0v5.306h-3v-10h3v1.389c1.396-2.586 6-2.777 6 2.474v6.137z" />
+                            </svg>
+                        </a>
+                        <button
+                            class="open-modal rounded-full p-2 flex items-center justify-center"
+                            data-target="#myModal3">
+                            <svg width="25" height="25px"  viewBox="0 0 24 24" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-.696-3.534c.63 0 1.332-.288 2.196-1.458l.911-1.22a.334.334 0 0 0-.074-.472.38.38 0 0 0-.505.06l-1.475 1.679a.241.241 0 0 1-.279.061.211.211 0 0 1-.12-.244l1.858-7.446a.499.499 0 0 0-.575-.613l-3.35.613a.35.35 0 0 0-.276.258l-.086.334a.25.25 0 0 0 .243.312h1.73l-1.476 5.922c-.054.234-.144.63-.144.918 0 .666.396 1.296 1.422 1.296zm1.83-10.536c.702 0 1.242-.414 1.386-1.044.036-.144.054-.306.054-.414 0-.504-.396-.972-1.134-.972-.702 0-1.242.414-1.386 1.044a1.868 1.868 0 0 0-.054.414c0 .504.396.972 1.134.972z" fill="#ffffff"/>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
 
                 <!-- Team Member 8 -->
@@ -352,8 +422,24 @@
                     <h3 class="text-lg text-white font-semibold mb-1">Faez Ibrahim-Adam</h3>
                     <p class="text-gray-500">Non-Executive Director</p>
 
-                    <button class="open-modal bg-blue-500 text-white rounded p-2 mt-4"
-                        data-target="#myModal8">i</button>
+                    <div class="flex justify-center space-x-4 mt-4">
+                        <button
+                            class="open-modal bg-black text-white rounded-full p-2 flex items-center justify-center"
+                            data-target="#linkedinModal">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24"
+                                fill="currentColor">
+                                <path
+                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.272c-.966 0-1.75-.783-1.75-1.75s.784-1.75 1.75-1.75 1.75.783 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.272h-3v-5.306c0-3.178-3-2.932-3 0v5.306h-3v-10h3v1.389c1.396-2.586 6-2.777 6 2.474v6.137z" />
+                            </svg>
+                        </button>
+                        <button
+                            class="open-modal rounded-full p-2 flex items-center justify-center"
+                            data-target="#myModal8">
+                            <svg width="25" height="25px"  viewBox="0 0 24 24" fill="" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-.696-3.534c.63 0 1.332-.288 2.196-1.458l.911-1.22a.334.334 0 0 0-.074-.472.38.38 0 0 0-.505.06l-1.475 1.679a.241.241 0 0 1-.279.061.211.211 0 0 1-.12-.244l1.858-7.446a.499.499 0 0 0-.575-.613l-3.35.613a.35.35 0 0 0-.276.258l-.086.334a.25.25 0 0 0 .243.312h1.73l-1.476 5.922c-.054.234-.144.63-.144.918 0 .666.396 1.296 1.422 1.296zm1.83-10.536c.702 0 1.242-.414 1.386-1.044.036-.144.054-.306.054-.414 0-.504-.396-.972-1.134-.972-.702 0-1.242.414-1.386 1.044a1.868 1.868 0 0 0-.054.414c0 .504.396.972 1.134.972z" fill="#ffffff"/>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

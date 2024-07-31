@@ -38,13 +38,15 @@
         </div>
     </section>
 
-    <section class=" bg-zinc-950">
-        <div class="container py-8 p-5 px-10">
-            <p class="flex justify-start text-gray-400 mb-5 px-48 text-xl">Our Organizational Development and Culture Transformation services are designed to help your organization adapt, thrive, and excel in today’s
-                 dynamic business environment. We work closely with you to assess your current organizational structure, processes, and culture, identifying areas for improvement and opportunities for growth. Our approach includes:
+    <section class="bg-zinc-950">
+        <div class="container py-8 px-4 md:px-10">
+            <p class="text-gray-400 mb-5 text-lg md:text-xl mx-auto px-4 md:px-0 md:max-w-screen-md">
+                Our Organizational Development and Culture Transformation services are designed to help your organization adapt, thrive, and excel in today’s dynamic business environment.
+                We work closely with you to assess your current organizational structure, processes, and culture, identifying areas for improvement and opportunities for growth. Our approach includes:
             </p>
         </div>
     </section>
+
 
     <section class="bg-black">
         <div class="container max-w-xl p-6 mx-auto space-y-12 lg:px-8 lg:max-w-7xl">
@@ -159,10 +161,7 @@
          <div class="flex flex-col ">
           <div class="prose text-gray-500 prose-sm prose-headings:font-normal prose-headings:text-xl">
            <div>
-            <h1>Simplified markup</h1>
-            <p class="text-balance">
-             See the code for this page to see how you can use Astro to simplify your markup.
-            </p>
+
            </div>
           </div> <!-- Starts component -->
           <div class="mt-6 border-t pt-12">

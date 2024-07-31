@@ -8,9 +8,72 @@
     <link rel="stylesheet" href="./output.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Document</title>
+
+    <style>
+        @keyframes slideInFromLeft {
+            0% {
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        .slide-in {
+            animation: slideInFromLeft 1s ease-out;
+        }
+
+        /* CSS for the marquee effect */
+        .animate-marquee {
+            display: flex;
+            width: 100%;
+            animation: marquee 30s linear infinite;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(100%);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        /* Optional: additional styling for the container */
+        .overflow-hidden {
+            overflow: hidden;
+        }
+
+        .bg-white {
+            background-color: white;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .space-x-4>*+* {
+            margin-left: 1rem;
+        }
+
+
+        .max-h-16 {
+            max-height: 4rem;
+            /* 16 * 0.25rem */
+        }
+
+        .partner-logo {
+            flex-shrink: 0;
+            flex-grow: 0;
+        }
+    </style>
 </head>
 
-<body class="">
+<body class="antialiased">
     <div class="relative pt-48 pb-12 bg-black xl:pt-60 sm:pb-16 lg:pb-32 xl:pb-48 2xl:pb-56">
         <!--header -->
         @include('widgets.navbar')
@@ -19,8 +82,7 @@
             <div class="absolute inset-0 bg-black opacity-85"></div> <!-- Overlay with 50% opacity -->
             <img class="object-cover w-full h-full" src="{{ asset('assets/images/bg-1.jpg') }}" alt="" />
         </div>
-
-        <div class="relative">
+        <div class="relative slide-in">
             <div class="px-6 mx-auto sm:px-8 lg:px-12 max-w-7xl">
                 <div class="w-full lg:w-2/3 xl:w-1/2">
                     <h1 class="font-sans text-base font-normal tracking-tight text-white text-opacity-70">Your Strategic
@@ -35,62 +97,19 @@
                     <p class="mt-8 font-sans text-xl font-normal text-white"></p>
 
                     <div class="flex items-center mt-5 space-x-3 sm:space-x-4">
-                        <a href="#" title=""
-                            class="
-                                inline-flex
-                                items-center
-                                justify-center
-                                px-5
-                                py-2
-                                font-sans
-                                text-base
-                                font-semibold
-                                transition-all
-                                duration-200
-                                border-2 border-transparent
-                                rounded-full
-                                sm:leading-8
-                                bg-white
-                                sm:text-lg
-                                text-black
-                                hover:bg-opacity-90
-                                focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary focus:ring-offset-secondary
-                            "
+                        {{-- <a href="#" title=""
+                            class="inline-flex items-center justify-center px-5 py-2 font-sans text-base font-semibold transition-all duration-200 border-2 border-transparent
+                                rounded-full sm:leading-8 bg-white sm:text-lg  text-black hover:bg-opacity-90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary focus:ring-offset-secondary"
                             role="button">
                             Get started
-                        </a>
+                        </a> --}}
 
-                        <a href="#" title=""
-                            class="
-                                inline-flex
-                                items-center
-                                justify-center
-                                px-5
-                                py-2
-                                font-sans
-                                text-base
-                                font-semibold
-                                transition-all
-                                duration-200
-                                bg-transparent
-                                border-2
-                                rounded-full
-                                sm:leading-8
-                                text-white
-                                border-primary
-                                hover:bg-white
-                                focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary
-                                hover:text-black
-                                sm:text-lg
-                                focus:ring-offset-secondary
-                            "
+                        <a href="/pages/about" title=""
+                            class="animate-bounce inline-flex items-center justify-center px-5 py-2 font-sans text-base font-semibold transition-all duration-200 bg-transparent
+                                border-2 rounded-full sm:leading-8 text-white
+                                border-primary  hover:bg-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary hover:text-black sm:text-lg focus:ring-offset-secondary"
                             role="button">
-                            <svg class="w-6 h-6 mr-2" viewBox="0 0 24 24" fill="currentColor"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M8.0416 4.9192C7.37507 4.51928 6.5271 4.99939 6.5271 5.77669L6.5271 18.2232C6.5271 19.0005 7.37507 19.4806 8.0416 19.0807L18.4137 12.8574C19.061 12.469 19.061 11.5308 18.4137 11.1424L8.0416 4.9192Z" />
-                            </svg>
-                            Watch trailer
+                            Find out more
                         </a>
                     </div>
                 </div>
@@ -99,15 +118,14 @@
     </div>
     <!--mission -->
     <section id="mission" class="relative bg-black py-20">
-
         <div class="container mx-auto px-4">
             <div class="items-center flex flex-wrap">
-                <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+                <div class="w-full md:w-4/12 ml-auto mr-auto px-4 animate-slideInLeft">
                     <div class="bg-black opacity-30"></div>
                     <img alt="..." class="max-w-full rounded-lg shadow-lg"
                         src="{{ asset('assets/images/bg/vision.jpg') }}" />
                 </div>
-                <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+                <div class="w-full md:w-5/12 ml-auto mr-auto px-4 animate-slideInRight">
                     <div class="md:pr-12">
                         <div
                             class="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-700">
@@ -166,7 +184,7 @@
                 </div>
                 <h3 class="text-3xl mb-2 text-white font-semibold leading-normal">
                     <span class="text-transparent bg-clip-text bg-white">
-                        Areas of Expertise  </span>
+                        Areas of Expertise </span>
                 </h3>
                 <div>
                     <h4 class="text-gray-100">People and Organisational Performance:</h4>
@@ -191,13 +209,13 @@
                 <a href="#" class="font-bold text-gray-500 mt-8" target="_blank">More </a>
             </div>
             <div class="w-full md:w-4/12 px-4 mr-auto ml-auto mb-5">
-                <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-700">
+                <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-zinc-950">
                     <img alt="..." src="{{ asset('assets/images/growth.jpg') }}"
                         class="w-full align-middle rounded-t-lg" />
                     <blockquote class="relative p-8 mb-4">
                         <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
                             class="absolute left-0 w-full block" style="height: 95px; top: -94px;">
-                            <polygon points="-30,95 583,95 583,65" class="text-gray-700 fill-current">
+                            <polygon points="-30,95 583,95 583,65" class="text-zinc-950 fill-current">
                             </polygon>
                         </svg>
                         <h4 class="text-xl font-bold text-gray-100">
@@ -214,35 +232,53 @@
             </div>
         </div>
     </section>
-
-    <section>
+    <!-- Partners -->
+    <section class="py-5">
         <div class="overflow-hidden bg-white">
             <div class="flex space-x-4 animate-marquee">
                 <!-- Repeat this block for each partner icon -->
-                <div class="px-4 py-2">
+                <div class="px-4 py-2 partner-logo">
                     <img src="{{ asset('assets/images/partners/AfDB-logo-HORI.png') }}" alt="Partner Logo"
                         class="max-h-16">
                 </div>
-                <div class="px-4 py-2">
+                <div class="px-4 py-2 partner-logo">
                     <img src="{{ asset('assets/images/partners/access-bank-plc-icon-2048x507-4kgbbmz8.png') }}"
                         alt="Partner Logo" class="max-h-16">
                 </div>
-                <div class="px-4 py-2">
+                <div class="px-4 py-2 partner-logo">
                     <img src="{{ asset('assets/images/partners/Ghana International Airlines logo (46)-M.jpg') }}"
                         alt="Partner Logo" class="max-h-16">
                 </div>
-                <div class="px-4 py-2">
+                <div class="px-4 py-2 partner-logo">
                     <img src="{{ asset('assets/images/partners/jnpengineeringgh.com') }}" alt="Partner Logo"
                         class="max-h-16">
                 </div>
-                <div class="px-4 py-2">
+                <div class="px-4 py-2 partner-logo">
                     <img src="{{ asset('assets/images/partners/oando.png') }}" alt="Partner Logo" class="max-h-16">
                 </div>
-                <div class="px-4 py-2">
+                <div class="px-4 py-2 partner-logo">
                     <img src="{{ asset('assets/images/partners/miif.png') }}" alt="Partner Logo" class="max-h-16">
                 </div>
-                <div class="px-4 py-2">
+                <div class="px-4 py-2 partner-logo">
                     <img src="{{ asset('assets/images/partners/MOH.jpg') }}" alt="Partner Logo" class="max-h-16">
+                </div>
+                <div class="px-4 py-2 partner-logo">
+                    <img src="{{ asset('assets/images/partners/fgr.jpeg') }}" alt="Partner Logo" class="max-h-16">
+                </div>
+                <div class="px-4 py-2 partner-logo">
+                    <img src="{{ asset('assets/images/partners/servaco.jpeg') }}" alt="Partner Logo"
+                        class="max-h-16">
+                </div>
+                <div class="px-4 py-2 partner-logo">
+                    <img src="{{ asset('assets/images/partners/rcs.png') }}" alt="Partner Logo" class="max-h-16">
+                </div>
+                <div class="px-4 py-2 partner-logo">
+                    <img src="{{ asset('assets/images/partners/GMA-log-new.png') }}" alt="Partner Logo"
+                        class="max-h-16">
+                </div>
+                <div class="px-4 py-2 partner-logo">
+                    <img src="{{ asset('assets/images/partners/undp-logo-5682674D5C-seeklogo.com.png') }}"
+                        alt="Partner Logo" class="max-h-16">
                 </div>
                 <!-- End repeat block -->
             </div>
@@ -309,20 +345,25 @@
                         class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                         <i class="fas fa-code-branch text-xl"></i>
                     </div>
-                    <h3 class="text-3xl mb-2 font-semibold leading-normal text-clack">Unique Selling Proposition (USP)</h3>
+                    <h3 class="text-3xl mb-2 font-semibold leading-normal text-clack">Unique Selling Proposition (USP)
+                    </h3>
                     <p class="text-lg font-light leading-relaxed mt-2 mb-2 text-blueGray-400">
                         Specialised expertise in industry-specific challenges and opportunities.</p>
-                    <p class="text-lg font-light leading-relaxed mt-0 mb-2 text-blueGray-400">Personalised service tailored to each client&#39;s unique needs.</p>
-                    <p class="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-400">Innovative solutions driven by data and cutting-edge technology.</p>
+                    <p class="text-lg font-light leading-relaxed mt-0 mb-2 text-blueGray-400">Personalised service
+                        tailored to each client&#39;s unique needs.</p>
+                    <p class="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-400">Innovative solutions
+                        driven by data and cutting-edge technology.</p>
                     {{-- <a
                         href="https://github.com/creativetimofficial/tailwind-starter-kit" target="_blank"
                         class="github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-black active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg">Github
                         Star</a>
                         --}}
                 </div>
-                <div class="w-full md:w-4/12 px-4 mr-auto ml-auto mt-32 relative">
-                    <img src="{{ asset('assets/images/woman.png') }}" alt="Your Image Description" style="width: 55em; position: absolute; top: -150px; right: 30%; left: auto;">
+                <div class="w-full md:w-4/12 px-4 mx-auto mt-32 relative hidden sm:block">
+                    <img src="{{ asset('assets/images/woman.png') }}" alt="Your Image Description"
+                        class="w-full md:w-[55em] absolute top-[-150px] right-[30%] left-auto md:relative md:top-auto md:right-auto">
                 </div>
+
             </div>
         </div>
     </section>
@@ -338,9 +379,9 @@
 
                 <div class="w-full text-center lg:w-8/12">
 
-
                     <h3 class="font-semibold text-gray-300 text-3xl">Do you want to partner with us ?</h3>
-                    <p class="text-gray-400 text-lg leading-relaxed mt-4 mb-4">Are you interested in partnering with us? Reach out through any of our available channels, and we will respond promptly.</p>
+                    <p class="text-gray-400 text-lg leading-relaxed mt-4 mb-4">Are you interested in partnering with
+                        us? Reach out through any of our available channels, and we will respond promptly.</p>
                     {{-- <div class="sm:block flex flex-col mt-10"><a
                             class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-black active:bg-pink-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                             href="/learning-lab/tailwind-starter-kit/documentation/quick-start">Get started</a><a
