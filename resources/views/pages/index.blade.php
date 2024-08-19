@@ -7,8 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./output.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <title>Document</title>
-
+    <title>Ann & Sons Ltd</title>
     <style>
         @keyframes slideInFromLeft {
             0% {
@@ -206,7 +205,7 @@
                     Compensation and Benefits Advisory Services
                     - Development of Salary Structures
                     - Payroll Services.</p>
-                <a href="#" class="font-bold text-gray-500 mt-8" target="_blank">More </a>
+                <a href="/pages/services-one" class="font-bold text-gray-500 mt-8">More </a>
             </div>
             <div class="w-full md:w-4/12 px-4 mr-auto ml-auto mb-5">
                 <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-zinc-950">
