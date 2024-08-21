@@ -68,7 +68,8 @@
 <nav class="py-4 bg-black bg-opacity-80 sm:py-6 fixed top-0 w-full z-10" x-data="{ expanded: false }">
     <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
         <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="{{ asset('assets/images/logos/Logo For Dark Background.png') }}" class="h-8" alt="Flowbite Logo" />
+            <img src="{{ asset('assets/images/logos/Logo For Dark Background.png') }}" class="h-8"
+                alt="Flowbite Logo" />
 
         </a>
         <button data-collapse-toggle="mega-menu-full" type="button"
@@ -116,33 +117,37 @@
         <div class="grid max-w-screen-xl px-4 py-5 mx-auto text-gray-900 dark:text-white sm:grid-cols-2 md:px-6">
             <ul>
                 <li>
-                    <a href="/pages/services-one" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-100 hover:text-black">
+                    <a href="/pages/services-one"
+                        class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-100 hover:text-black">
                         <div class="font-semibold">People and Organisational Performance:</div>
-                        <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
-                            you're already using.</span>
+                        <span class="text-sm text-gray-500 dark:text-gray-400">Boosting performance by aligning people
+                            strategies with business goals.</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/pages/services-two" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-100 hover:text-black">
+                    <a href="/pages/services-two"
+                        class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-100 hover:text-black">
                         <div class="font-semibold">Executive Search &amp; Recruitment</div>
-                        <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
-                            you're already using.</span>
+                        <span class="text-sm text-gray-500 dark:text-gray-400">Finding top talent to lead your
+                            organization to success.</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/pages/services-three" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-100 hover:text-black">
+                    <a href="/pages/services-three"
+                        class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-100 hover:text-black">
                         <div class="font-semibold">Reward Management</div>
-                        <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
-                            you're already using.</span>
+                        <span class="text-sm text-gray-500 dark:text-gray-400">Designing compensation strategies that
+                            motivate and retain talent.</span>
                     </a>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <a href="/pages/services-four" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-100 hover:text-black">
+                    <a href="/pages/services-four"
+                        class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-100 hover:text-black">
                         <div class="font-semibold">Organizational Development and Culture Transformation</div>
-                        <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that
-                            you're already using.</span>
+                        <span class="text-sm text-gray-500 dark:text-gray-400">Shaping organizational growth through
+                            culture and strategic change.</span>
                     </a>
                 </li>
                 {{-- <li>
@@ -165,13 +170,13 @@
 </nav>
 
 
-    <script>
-    document.addEventListener('DOMContentLoaded', function () {
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
         // Toggle the mega menu
         const menuButton = document.querySelector('[data-collapse-toggle="mega-menu-full"]');
         const menu = document.getElementById('mega-menu-full');
 
-        menuButton.addEventListener('click', function () {
+        menuButton.addEventListener('click', function() {
             menu.classList.toggle('hidden');
         });
 
@@ -179,11 +184,21 @@
         const dropdownButton = document.getElementById('mega-menu-full-dropdown-button');
         const dropdown = document.getElementById('mega-menu-full-dropdown');
 
-        dropdownButton.addEventListener('click', function () {
+        dropdownButton.addEventListener('click', function() {
             dropdown.classList.toggle('hidden');
+        });
+        // Close the mega menu when clicking outside of it
+        document.addEventListener('click', function(event) {
+            if (!menu.contains(event.target) && !menuButton.contains(event.target)) {
+                menu.classList.add('hidden');
+            }
+        });
+
+        // Close the dropdown when clicking outside of it
+        document.addEventListener('click', function(event) {
+            if (!dropdown.contains(event.target) && !dropdownButton.contains(event.target)) {
+                dropdown.classList.add('hidden');
+            }
         });
     });
 </script>
-
-
-

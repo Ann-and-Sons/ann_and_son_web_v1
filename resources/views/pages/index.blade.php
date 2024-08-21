@@ -155,7 +155,7 @@
                                     <div>
                                         <span
                                             class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-white mr-3"><i
-                                                class="fab fa-html5"></i></span>
+                                                class="fa-solid fa-industry"></i></span>
                                     </div>
                                     <div>
                                         <h4 class="text-sm text-gray-400">
@@ -289,8 +289,8 @@
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div class="max-w-2xl mx-auto text-center">
                 <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Our Target Market</h2>
-                <p class="max-w-lg mx-auto mt-4 text-base leading-relaxed text-gray-600">Amet minim mollit non deserunt
-                    ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis.</p>
+                <p class="max-w-lg mx-auto mt-4 text-base leading-relaxed text-gray-600">Our target market consists of organizations seeking expert HR solutions to optimize talent management,
+                     improve workplace culture, and drive business growth.</p>
             </div>
 
             <div class="relative mt-12 lg:mt-20">
@@ -342,7 +342,7 @@
                 <div class="w-full md:w-5/12 px-12 md:px-4 ml-auto mr-auto md:mt-64">
                     <div
                         class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                        <i class="fas fa-code-branch text-xl"></i>
+                        <i class="fa-solid fa-pen-nib text-xl"></i>
                     </div>
                     <h3 class="text-3xl mb-2 font-semibold leading-normal text-clack">Unique Selling Proposition (USP)
                     </h3>
@@ -380,7 +380,7 @@
 
                     <h3 class="font-semibold text-gray-300 text-3xl">Do you want to partner with us ?</h3>
                     <p class="text-gray-400 text-lg leading-relaxed mt-4 mb-4">Are you interested in partnering with
-                        us? Reach out through any of our available channels, and we will respond promptly.</p>
+                        us? Reach out to us on our LinkedIn channel, and we will respond promptly.</p>
                     {{-- <div class="sm:block flex flex-col mt-10"><a
                             class="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-black active:bg-pink-600 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                             href="/learning-lab/tailwind-starter-kit/documentation/quick-start">Get started</a><a
