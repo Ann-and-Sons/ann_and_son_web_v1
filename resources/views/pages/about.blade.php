@@ -337,7 +337,7 @@
 
                 <!-- Team Member 5 -->
                 <div class="bg-zinc-950 rounded-lg shadow-md p-4 my-4 text-center">
-                    <img src="{{ asset('assets/images/team/clara-fosu.jpeg') }}" alt="Team Member 5"
+                    <img src="{{ asset('assets/images/team/clara-fosu.jpg') }}" alt="Team Member 5"
                         class="w-3/4 mx-auto rounded-full mb-2">
                     <h3 class="text-lg text-white font-semibold mb-1">Mrs Clara Fosu Quaye</h3>
                     <p class="text-gray-500">Non-Executive Director</p>
