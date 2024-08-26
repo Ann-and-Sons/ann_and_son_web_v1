@@ -159,7 +159,7 @@
     </section>
 
     <section>
-        <div class="px-4 py-16 mx-auto md:px-12 lg:px-32 max-w-screen-xl flex flex-col lg:h-svh justify-center">
+        <div class="px-4 py-16 mx-auto md:px-12 lg:px-32 max-w-screen-xl flex flex-col justify-center">
             <div class="flex flex-col ">
                 <div class="prose text-gray-500 prose-sm prose-headings:font-normal prose-headings:text-xl">
                     <div>
