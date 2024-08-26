@@ -41,8 +41,10 @@
     <section class="bg-zinc-950">
         <div class="container py-8 px-4 md:px-10">
             <p class="text-gray-400 mb-5 text-lg md:text-xl mx-auto px-4 md:px-0 md:max-w-screen-md">
-                Our Organizational Development and Culture Transformation services are designed to help your organization adapt, thrive, and excel in today’s dynamic business environment.
-                We work closely with you to assess your current organizational structure, processes, and culture, identifying areas for improvement and opportunities for growth. Our approach includes:
+                Our Organizational Development and Culture Transformation services are designed to help your
+                organization adapt, thrive, and excel in today’s dynamic business environment.
+                We work closely with you to assess your current organizational structure, processes, and culture,
+                identifying areas for improvement and opportunities for growth. Our approach includes:
             </p>
         </div>
     </section>
@@ -157,213 +159,208 @@
     </section>
 
     <section>
-        <div class="px-8 py-24 mx-auto md:px-12 lg:px-32 max-w-screen-xl flex flex-col lg:h-svh justify-center">
-         <div class="flex flex-col ">
-          <div class="prose text-gray-500 prose-sm prose-headings:font-normal prose-headings:text-xl">
-           <div>
+        <div class="px-4 py-16 mx-auto md:px-12 lg:px-32 max-w-screen-xl flex flex-col lg:h-svh justify-center">
+            <div class="flex flex-col ">
+                <div class="prose text-gray-500 prose-sm prose-headings:font-normal prose-headings:text-xl">
+                    <div>
 
-           </div>
-          </div> <!-- Starts component -->
-          <div class="mt-6 border-t pt-12">
-           <div class="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-24 items-center ">
-            <div> <span class="text-gray-600  uppercase text-xs font-medium "> Because why not </span>
-             <p class="text-4xl mt-8 tracking-tighter font-semibold text-gray-700 text-balance"> We help you build a resilient, adaptable, and high-performing organization </p>
-             <p class="text-sm  mt-4 text-gray-700 text-balance"> We provide the tools and support needed to manage change initiatives, ensuring smooth transitions and minimizing disruptions.  </p>
-             <div class="mt-6 text-xs font-medium grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-2 text-gray-950">
-              <div class="inline-flex items-center gap-2  text-xs text-gray-700"> <svg class="icon icon-tabler text-gray-700 size-4 icon-tabler-360" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M17 15.328c2.414 -.718 4 -1.94 4 -3.328c0 -2.21 -4.03 -4 -9 -4s-9 1.79 -9 4s4.03 4 9 4"></path>
-                <path d="M9 13l3 3l-3 3"></path>
-               </svg> <span class="text-gray-950 font-medium text-sm"> Change Management Support Services. </span> </div>
-              <div class="inline-flex items-center gap-2  text-xs text-gray-700"> <svg class="icon icon-tabler text-gray-700 size-4 icon-tabler-antenna-bars-3" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M6 18l0 -3"></path>
-                <path d="M10 18l0 -6"></path>
-                <path d="M14 18l0 .01"></path>
-                <path d="M18 18l0 .01"></path>
-               </svg> <span class="text-gray-950 font-medium text-sm"> Development of Competency Frameworks and Career Paths. </span> </div>
-              <div class="inline-flex items-center gap-2  text-xs text-gray-700"> <svg class="icon icon-tabler text-gray-700 size-4 icon-tabler-load-balancer" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M12 13m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
-                <path d="M12 20m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
-                <path d="M12 16v3"></path>
-                <path d="M12 10v-7"></path>
-                <path d="M9 6l3 -3l3 3"></path>
-                <path d="M12 10v-7"></path>
-                <path d="M9 6l3 -3l3 3"></path>
-                <path d="M14.894 12.227l6.11 -2.224"></path>
-                <path d="M17.159 8.21l3.845 1.793l-1.793 3.845"></path>
-                <path d="M9.101 12.214l-6.075 -2.211"></path>
-                <path d="M6.871 8.21l-3.845 1.793l1.793 3.845"></path>
-               </svg> <span class="text-gray-950 font-medium text-sm"> Role/Job profiling. </span> </div>
-              <div class="inline-flex items-center gap-2  text-xs text-gray-700"> <svg class="icon icon-tabler text-gray-700 size-4 icon-tabler-brand-speedtest" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M5.636 19.364a9 9 0 1 1 12.728 0"></path>
-                <path d="M16 9l-4 4"></path>
-               </svg> <span class="text-gray-950 font-medium text-sm">Design &amp; Implementation of Performance Management Systems. </span> </div>
-             </div>
+                    </div>
+                </div> <!-- Starts component -->
+                <div class="mt-6 border-t pt-12">
+                    <div class="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-24 items-center ">
+                        <div> <span class="text-gray-600  uppercase text-xs font-medium "> Because why not </span>
+                            <p class="text-4xl mt-8 tracking-tighter font-semibold text-gray-700 text-balance"> We help
+                                you build a resilient, adaptable, and high-performing organization </p>
+                            <p class="text-sm  mt-4 text-gray-700 text-balance"> We provide the tools and support
+                                needed to manage change initiatives, ensuring smooth transitions and minimizing
+                                disruptions. </p>
+                            <div
+                                class="mt-6 text-xs font-medium grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-2 text-gray-950">
+                                <div class="inline-flex items-center gap-2  text-xs text-gray-700"> <svg
+                                        class="icon icon-tabler text-gray-700 size-4 icon-tabler-360"
+                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M17 15.328c2.414 -.718 4 -1.94 4 -3.328c0 -2.21 -4.03 -4 -9 -4s-9 1.79 -9 4s4.03 4 9 4">
+                                        </path>
+                                        <path d="M9 13l3 3l-3 3"></path>
+                                    </svg> <span class="text-gray-950 font-medium text-sm"> Change Management Support
+                                        Services. </span> </div>
+                                <div class="inline-flex items-center gap-2  text-xs text-gray-700"> <svg
+                                        class="icon icon-tabler text-gray-700 size-4 icon-tabler-antenna-bars-3"
+                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M6 18l0 -3"></path>
+                                        <path d="M10 18l0 -6"></path>
+                                        <path d="M14 18l0 .01"></path>
+                                        <path d="M18 18l0 .01"></path>
+                                    </svg> <span class="text-gray-950 font-medium text-sm"> Development of Competency
+                                        Frameworks and Career Paths. </span> </div>
+                                <div class="inline-flex items-center gap-2  text-xs text-gray-700"> <svg
+                                        class="icon icon-tabler text-gray-700 size-4 icon-tabler-load-balancer"
+                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M12 13m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                                        <path d="M12 20m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+                                        <path d="M12 16v3"></path>
+                                        <path d="M12 10v-7"></path>
+                                        <path d="M9 6l3 -3l3 3"></path>
+                                        <path d="M12 10v-7"></path>
+                                        <path d="M9 6l3 -3l3 3"></path>
+                                        <path d="M14.894 12.227l6.11 -2.224"></path>
+                                        <path d="M17.159 8.21l3.845 1.793l-1.793 3.845"></path>
+                                        <path d="M9.101 12.214l-6.075 -2.211"></path>
+                                        <path d="M6.871 8.21l-3.845 1.793l1.793 3.845"></path>
+                                    </svg> <span class="text-gray-950 font-medium text-sm"> Role/Job profiling. </span>
+                                </div>
+                                <div class="inline-flex items-center gap-2  text-xs text-gray-700"> <svg
+                                        class="icon icon-tabler text-gray-700 size-4 icon-tabler-brand-speedtest"
+                                        viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M5.636 19.364a9 9 0 1 1 12.728 0"></path>
+                                        <path d="M16 9l-4 4"></path>
+                                    </svg> <span class="text-gray-950 font-medium text-sm">Design &amp; Implementation
+                                        of Performance Management Systems. </span> </div>
+                            </div>
+                        </div>
+                        <div class="h-full md:order-first"> <img src="{{ asset('assets/images/bg/organize-3.jpg') }}"
+                                alt="#_"
+                                class=" bg-gray-200 shadow-box shadow-gray-500/30 overflow-hidden aspect-square  w-full h-full object-cover object-center">
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-24 items-center md:flex-row-reverse">
+                        <div> <span class="text-gray-600  uppercase text-xs font-medium "> Just because we can </span>
+                            <p class="text-4xl mt-8 tracking-tighter font-semibold text-gray-700 text-balance"> Our
+                                goal is to empower your team to achieve sustained success in an ever-evolving business
+                                landscape. </p>
+                            <p class="text-sm  mt-4 text-gray-700 text-balance"> We help you define and cultivate a
+                                strong organizational culture that supports your strategic objectives </p>
+                            <div
+                                class="mt-6 text-xs font-medium grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-2 text-gray-950">
+                                <div class="inline-flex items-center gap-2  text-xs text-gray-700"> <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-database text-gray-700 size-4"
+                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M12 6m-8 0a8 3 0 1 0 16 0a8 3 0 1 0 -16 0"></path>
+                                        <path d="M4 6v6a8 3 0 0 0 16 0v-6"></path>
+                                        <path d="M4 12v6a8 3 0 0 0 16 0v-6"></path>
+                                    </svg> <span class="text-gray-950 font-medium text-sm"> Development of job
+                                        descriptions, defining roles and reporting lines. </span> </div>
+                                <div class="inline-flex items-center gap-2  text-xs text-gray-700"> <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-building text-gray-700 size-4"
+                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M3 21l18 0"></path>
+                                        <path d="M9 8l1 0"></path>
+                                        <path d="M9 12l1 0"></path>
+                                        <path d="M9 16l1 0"></path>
+                                        <path d="M14 8l1 0"></path>
+                                        <path d="M14 12l1 0"></path>
+                                        <path d="M14 16l1 0"></path>
+                                        <path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16"></path>
+                                    </svg> <span class="text-gray-950 font-medium text-sm"> Conducting Job Analysis,
+                                        Job &amp; Staff Evaluation. </span> </div>
+                                <div class="inline-flex items-center gap-2  text-xs text-gray-700"> <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-augmented-reality-2 text-gray-700 size-4"
+                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M10 21h-2a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v3.5">
+                                        </path>
+                                        <path d="M17 17l-4 -2.5l4 -2.5l4 2.5v4.5l-4 2.5z"></path>
+                                        <path d="M13 14.5v4.5l4 2.5"></path>
+                                        <path d="M17 17l4 -2.5"></path>
+                                        <path d="M11 4h2"></path>
+                                    </svg> <span class="text-gray-950 font-medium text-sm"> Conducting Salary Surveys
+                                    </span> </div>
+                                <div class="inline-flex items-center gap-2  text-xs text-gray-700"> <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-time-duration-0 text-gray-700 size-4"
+                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M3 12v.01"></path>
+                                        <path d="M21 12v.01"></path>
+                                        <path d="M12 21v.01"></path>
+                                        <path d="M12 3v.01"></path>
+                                        <path d="M7.5 4.2v.01"></path>
+                                        <path d="M16.5 4.2v.01"></path>
+                                        <path d="M16.5 19.8v.01"></path>
+                                        <path d="M7.5 19.8v.01"></path>
+                                        <path d="M4.2 16.5v.01"></path>
+                                        <path d="M19.8 16.5v.01"></path>
+                                        <path d="M19.8 7.5v.01"></path>
+                                        <path d="M4.2 7.5v.01"></path>
+                                        <path d="M10 11v2a2 2 0 1 0 4 0v-2a2 2 0 1 0 -4 0z"></path>
+                                    </svg> <span class="text-gray-950 font-medium text-sm"> Conducting Workload
+                                        Analysis. </span> </div>
+                            </div>
+                        </div>
+                        <div class="h-full "> <img src="{{ asset('assets/images/bg/organize-2.jpg') }}"
+                                alt="#_"
+                                class=" bg-gray-200 shadow-box shadow-gray-500/30 overflow-hidden aspect-square  w-full h-full object-cover object-center">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="h-full md:order-first"> <img src="{{ asset('assets/images/bg/organize-3.jpg') }}" alt="#_" class=" bg-gray-200 shadow-box shadow-gray-500/30 overflow-hidden aspect-square  w-full h-full object-cover object-center"> </div>
-           </div>
-           <div class="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-24 items-center md:flex-row-reverse">
-            <div> <span class="text-gray-600  uppercase text-xs font-medium "> Just because we can </span>
-             <p class="text-4xl mt-8 tracking-tighter font-semibold text-gray-700 text-balance"> Our goal is to empower your team to achieve sustained success in an ever-evolving business landscape. </p>
-             <p class="text-sm  mt-4 text-gray-700 text-balance"> We help you define and cultivate a strong organizational culture that supports your strategic objectives </p>
-             <div class="mt-6 text-xs font-medium grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-2 text-gray-950">
-              <div class="inline-flex items-center gap-2  text-xs text-gray-700"> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-database text-gray-700 size-4" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M12 6m-8 0a8 3 0 1 0 16 0a8 3 0 1 0 -16 0"></path>
-                <path d="M4 6v6a8 3 0 0 0 16 0v-6"></path>
-                <path d="M4 12v6a8 3 0 0 0 16 0v-6"></path>
-               </svg> <span class="text-gray-950 font-medium text-sm"> Development of job descriptions, defining roles and reporting lines. </span> </div>
-              <div class="inline-flex items-center gap-2  text-xs text-gray-700"> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-building text-gray-700 size-4" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M3 21l18 0"></path>
-                <path d="M9 8l1 0"></path>
-                <path d="M9 12l1 0"></path>
-                <path d="M9 16l1 0"></path>
-                <path d="M14 8l1 0"></path>
-                <path d="M14 12l1 0"></path>
-                <path d="M14 16l1 0"></path>
-                <path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16"></path>
-               </svg> <span class="text-gray-950 font-medium text-sm"> Conducting Job Analysis, Job &amp; Staff Evaluation. </span> </div>
-              <div class="inline-flex items-center gap-2  text-xs text-gray-700"> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-augmented-reality-2 text-gray-700 size-4" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M10 21h-2a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h8a2 2 0 0 1 2 2v3.5"></path>
-                <path d="M17 17l-4 -2.5l4 -2.5l4 2.5v4.5l-4 2.5z"></path>
-                <path d="M13 14.5v4.5l4 2.5"></path>
-                <path d="M17 17l4 -2.5"></path>
-                <path d="M11 4h2"></path>
-               </svg> <span class="text-gray-950 font-medium text-sm"> Conducting Salary Surveys </span> </div>
-              <div class="inline-flex items-center gap-2  text-xs text-gray-700"> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-time-duration-0 text-gray-700 size-4" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M3 12v.01"></path>
-                <path d="M21 12v.01"></path>
-                <path d="M12 21v.01"></path>
-                <path d="M12 3v.01"></path>
-                <path d="M7.5 4.2v.01"></path>
-                <path d="M16.5 4.2v.01"></path>
-                <path d="M16.5 19.8v.01"></path>
-                <path d="M7.5 19.8v.01"></path>
-                <path d="M4.2 16.5v.01"></path>
-                <path d="M19.8 16.5v.01"></path>
-                <path d="M19.8 7.5v.01"></path>
-                <path d="M4.2 7.5v.01"></path>
-                <path d="M10 11v2a2 2 0 1 0 4 0v-2a2 2 0 1 0 -4 0z"></path>
-               </svg> <span class="text-gray-950 font-medium text-sm"> Conducting Workload Analysis. </span> </div>
-             </div>
-            </div>
-            <div class="h-full "> <img src="{{ asset('assets/images/bg/organize-2.jpg') }}" alt="#_" class=" bg-gray-200 shadow-box shadow-gray-500/30 overflow-hidden aspect-square  w-full h-full object-cover object-center"> </div>
-           </div>
-          </div>
-          <!-- Emds component -->
-          <!-- Starts links to tutorial -->
-          {{-- <div class="pointer-events-none fixed inset-x-0 bottom-0 sm:flex sm:justify-center p-2">
-           <div class="pointer-events-auto flex w-full max-w-md divide-x divide-neutral-200 rounded-lg bg-white shadow-xl border">
-            <div class="flex w-0 flex-1 items-center p-4">
-             <div class="w-full">
-              <p class="text-sm font-medium text-neutral-900">Tutorial</p>
-              <p class="mt-1 text-sm text-neutral-500">
-               How to simplify your code and avoid repeating your markup with
-               Astrojs and Tailwind CSS
-              </p>
-              <p class="mt-2 text-xs text-orange-500 underline"> <a href="https://lexingtonthemes.com">
-                by © Lexington Themes</a> </p>
-             </div>
-            </div>
-            <div class="flex">
-             <div class="flex flex-col divide-y divide-neutral-200">
-              <div class="flex h-0 flex-1"> <a href="https://lexingtonthemes.com/tutorials/how-to-simplify-your-code-and-avoid-repeating-your-markup-with-astrojs-and-tailwind-css/" type="button" class="flex w-full items-center justify-center rounded-none rounded-tr-lg border border-transparent px-4 py-3 text-sm font-medium text-orange-600 hover:text-orange-500 focus:z-10 focus:outline-none focus:ring-2 focus:ring-orange-500">Tutorial</a> </div>
-              <div class="flex h-0 flex-1"> <a href="https://github.com/Lexington-Themes/lexington-tutorials/blob/main/src/pages/simplified-markup/index.astro" class="flex w-full items-center justify-center rounded-none rounded-br-lg border border-transparent px-4 py-3 text-sm font-medium text-neutral-700 hover:text-neutral-500 focus:outline-none focus:ring-2 focus:ring-orange-500">Get the code</a> </div>
-             </div>
-            </div>
-           </div>
-          </div> --}}
-           <!-- Ends links to tutorial -->
-         </div>
         </div>
-       </section>
+    </section>
 
-       <footer class="relative bg-black pt-8 pb-6">
-        <div
-          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-          style="height: 80px;"
-        >
-          <svg
-            class="absolute bottom-0 overflow-hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-            version="1.1"
-            viewBox="0 0 2560 100"
-            x="0"
-            y="0"
-          >
-          </svg>
+    <footer class="relative bg-black pt-8 pb-6">
+        <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+            style="height: 80px;">
+            <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg"
+                preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+            </svg>
         </div>
         <div class="container mx-auto px-4">
-          <div class="flex flex-wrap">
-            <div class="w-full lg:w-6/12 px-4">
-              <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
-              <h5 class="text-lg mt-0 mb-2 text-gray-400">
-                Find us on any of these platforms, we respond 1-2 business days.
-              </h5>
-              {{-- <div class="mt-6">
-                <button
-                  class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                  type="button"
-                >
-                  <i class="flex fab fa-twitter"></i></button
-                ><button
-                  class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                  type="button"
-                >
-                  <i class="flex fab fa-facebook-square"></i></button
-                ><button
-                  class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                  type="button"
-                >
-                  <i class="flex fab fa-dribbble"></i></button
-                ><button
-                  class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                  type="button"
-                >
-                  <i class="flex fab fa-github"></i>
-                </button>
-              </div> --}}
-            </div>
-            <div class="w-full lg:w-6/12 px-4">
-              <div class="flex flex-wrap items-top mb-6">
-                <div class="w-full lg:w-4/12 px-4 ml-auto">
-                  <span
-                    class="block uppercase text-gray-300 text-sm font-semibold mb-2"
-                    >Useful Links</span
-                  >
-                  <ul class="list-unstyled">
-                    <li>
-                      <a
-                        class="text-gray-400 hover:text-gray-100 font-semibold block pb-2 text-sm"
-                        href=""
-                        >About Us</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="text-gray-400 hover:text-gray-100 font-semibold block pb-2 text-sm"
-                        href=""
-                        >Services</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="text-gray-400 hover:text-gray-100 font-semibold block pb-2 text-sm"
-                        href=""
-                        >Contact Us</a
-                      >
-                    </li>
-
-                  </ul>
+            <div class="flex flex-wrap">
+                <div class="w-full lg:w-6/12 px-4">
+                    <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
+                    <h5 class="text-lg mt-0 mb-2 text-gray-400">
+                        Connect with us on LinkedIn or at info@annandsonslimited.com. <br> We respond 1-2 business days.
+                    </h5>
+                    <a href="https://www.linkedin.com/company/ann-and-sons-limited/" target="_blank"
+                        rel="noopener noreferrer">
+                        <svg fill="#ffffff" width="50px" height="50px" viewBox="-5.5 0 32 32" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <title>linkedin</title>
+                            <path
+                                d="M0 8.219v15.563c0 1.469 1.156 2.625 2.625 2.625h15.563c0.719 0 1.406-0.344 1.844-0.781 0.469-0.469 0.781-1.063 0.781-1.844v-15.563c0-1.469-1.156-2.625-2.625-2.625h-15.563c-0.781 0-1.375 0.313-1.844 0.781-0.438 0.438-0.781 1.125-0.781 1.844zM2.813 10.281c0-1 0.813-1.875 1.813-1.875 1.031 0 1.875 0.875 1.875 1.875 0 1.031-0.844 1.844-1.875 1.844-1 0-1.813-0.813-1.813-1.844zM7.844 23.125v-9.531c0-0.219 0.219-0.406 0.375-0.406h2.656c0.375 0 0.375 0.438 0.375 0.719 0.75-0.75 1.719-0.938 2.719-0.938 2.438 0 4 1.156 4 3.719v6.438c0 0.219-0.188 0.406-0.375 0.406h-2.75c-0.219 0-0.375-0.219-0.375-0.406v-5.813c0-0.969-0.281-1.5-1.375-1.5-1.375 0-1.719 0.906-1.719 2.125v5.188c0 0.219-0.219 0.406-0.438 0.406h-2.719c-0.156 0-0.375-0.219-0.375-0.406zM2.875 23.125v-9.531c0-0.219 0.219-0.406 0.375-0.406h2.719c0.25 0 0.406 0.156 0.406 0.406v9.531c0 0.219-0.188 0.406-0.406 0.406h-2.719c-0.188 0-0.375-0.219-0.375-0.406z">
+                            </path>
+                        </svg>
+                    </a>
                 </div>
-                {{-- <div class="w-full lg:w-4/12 px-4">
+                <div class="w-full lg:w-6/12 px-4">
+                    <div class="flex flex-wrap items-top mb-6">
+                        <div class="w-full lg:w-4/12 px-4 ml-auto">
+                            <span class="block uppercase text-gray-300 text-sm font-semibold mb-2">Useful Links</span>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a class="text-gray-400 hover:text-gray-100 font-semibold block pb-2 text-sm"
+                                        href="">About Us</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-400 hover:text-gray-100 font-semibold block pb-2 text-sm"
+                                        href="">Services</a>
+                                </li>
+                                <li>
+                                    <a class="text-gray-400 hover:text-gray-100 font-semibold block pb-2 text-sm"
+                                        href="">Contact Us</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        {{-- <div class="w-full lg:w-4/12 px-4">
                   <span
                     class="block uppercase text-gray-300 text-sm font-semibold mb-2"
                     >Other Resources</span
@@ -387,26 +384,20 @@
 
                   </ul>
                 </div> --}}
-              </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <hr class="my-6 border-gray-400" />
-          <div
-            class="flex flex-wrap items-center md:justify-between justify-center"
-          >
-            <div class="w-full md:w-4/12 px-4 mx-auto text-center">
-              <div class="text-sm text-gray-600 font-semibold py-1">
-                Copyright © 2024 Ann and Sons
-                <a
-                  href=""
-                  class="text-gray-600 hover:text-gray-900"
-                  >Limited</a
-                >.
-              </div>
+            <hr class="my-6 border-gray-400" />
+            <div class="flex flex-wrap items-center md:justify-between justify-center">
+                <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+                    <div class="text-sm text-gray-600 font-semibold py-1">
+                        Copyright © 2024 Ann and Sons
+                        <a href="" class="text-gray-600 hover:text-gray-900">Limited</a>.
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </footer>
+    </footer>
 </body>
 
 </html>

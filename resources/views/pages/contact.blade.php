@@ -146,7 +146,7 @@
                 <div class="w-full lg:w-6/12 px-4">
                     <h4 class="text-3xl text-white font-semibold">Let's keep in touch!</h4>
                     <h5 class="text-lg mt-0 mb-2 text-gray-400">
-                        Find us on LinkedIn, we respond 1-2 business days.
+                        Connect with us on LinkedIn or at info@annandsonslimited.com. <br> We respond 1-2 business days.
                     </h5>
                     <a href="https://www.linkedin.com/company/ann-and-sons-limited/" target="_blank"
                         rel="noopener noreferrer">
@@ -170,39 +170,12 @@
                                 </li>
                                 <li>
                                     <a class="text-gray-400 hover:text-gray-100 font-semibold block pb-2 text-sm"
-                                        href="">Services</a>
-                                </li>
-                                <li>
-                                    <a class="text-gray-400 hover:text-gray-100 font-semibold block pb-2 text-sm"
                                         href="">Contact Us</a>
                                 </li>
 
                             </ul>
                         </div>
-                        {{-- <div class="w-full lg:w-4/12 px-4">
-                  <span
-                    class="block uppercase text-gray-300 text-sm font-semibold mb-2"
-                    >Other Resources</span
-                  >
-                  <ul class="list-unstyled">
 
-                    <li>
-                      <a
-                        class="text-gray-400 hover:text-gray-100 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/terms"
-                        >Terms &amp; Conditions</a
-                      >
-                    </li>
-                    <li>
-                      <a
-                        class="text-gray-400 hover:text-gray-100 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/privacy"
-                        >Privacy Policy</a
-                      >
-                    </li>
-
-                  </ul>
-                </div> --}}
                     </div>
                 </div>
             </div>
