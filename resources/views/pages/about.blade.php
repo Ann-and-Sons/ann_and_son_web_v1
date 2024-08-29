@@ -363,7 +363,7 @@
 
                 <!-- Team Member 6 -->
                 <div class="bg-zinc-950 rounded-lg shadow-md p-4 my-4 text-center">
-                    <img src="{{ asset('assets/images/team/samuel-opoku.jpeg') }}" alt="Team Member 6"
+                    <img src="{{ asset('assets/images/team/sam-opoku.jpg') }}" alt="Team Member 6"
                         class="w-3/4 mx-auto rounded-full mb-2">
                     <h3 class="text-lg text-white font-semibold mb-1">Mr Samuel Opoku</h3>
                     <p class="text-gray-500">Executive Director</p>

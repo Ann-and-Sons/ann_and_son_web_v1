@@ -156,12 +156,12 @@
                                 <div class="flex items-center">
                                     <div>
                                         <span
-                                            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-white mr-3"><i
-                                                class="fa-solid fa-industry"></i></span>
+                                            class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-white mr-3">
+                                            <i class="fas fa-bolt"></i></span>
                                     </div>
                                     <div>
                                         <h4 class="text-sm text-gray-400">
-                                            <b>Vission :</b> To be Africa’s leading advisory firm recognised for
+                                            <b>Vision :</b> To be Africa’s leading advisory firm recognised for
                                             excellence and trusted
                                             partnerships.
                                         </h4>
@@ -182,33 +182,16 @@
             <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
                 <div
                     class="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-700">
-                    <i class="fas fa-user-friends text-xl"></i>
+                    <i class="fas fa-cog text-xl"></i>
                 </div>
                 <h3 class="text-3xl mb-2 text-white font-semibold leading-normal">
                     <span class="text-transparent bg-clip-text bg-white">
-                        Areas of Expertise </span>
+                        Services </span>
                 </h3>
-                <div>
-                    <h4 class="text-gray-100">People and Organisational Performance:</h4>
-                </div>
-                <p class=" text-sm font-light leading-relaxed mt-4 mb-4 text-gray-400">
-                    Talent Management – establish a talent-first organization.
+                <p class=" text-2xl font-semibold leading-relaxed mt-4 mb-4 text-gray-400">
+                    We partner with you to create an organisation that makes the best of your people so you can realise your strategy today and build on your performance in the future.
                 </p>
-                <div>
-                    <h4 class="text-gray-100">Executive Search &amp; Recruitment:</h4>
-                </div>
-                <p class="text-sm font-light leading-relaxed mt-0 mb-4 text-gray-400">
-                    Headhunting - Recruitment/Executive Search - Graduate recruitment -
-                    Recruitment Process Outsourcing (RPO) - Leadership & Behavioral Assessments (On-line).
-                </p>
-                <div>
-                    <h4 class="text-gray-100">Reward Management</h4>
-                </div>
-                <p class="text-sm font-light leading-relaxed mt-0 mb-4 text-gray-400">
-                    Compensation and Benefits Advisory Services
-                    - Development of Salary Structures
-                    - Payroll Services.</p>
-                <a href="/pages/services-one" class="font-bold text-gray-500 mt-8">More </a>
+
             </div>
             <div class="w-full md:w-4/12 px-4 mr-auto ml-auto mb-5">
                 <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-zinc-950">
@@ -220,15 +203,32 @@
                             <polygon points="-30,95 583,95 583,65" class="text-zinc-950 fill-current">
                             </polygon>
                         </svg>
-                        <h4 class="text-xl font-bold text-gray-100">
-                            Services
-                        </h4>
-                        <p class="text-sm font-light mt-2 text-gray-100">
-                            We partner with you to create an organisation that makes the best of your people so you can
-                            realise your
-                            strategy today and build on your performance in the future.
 
-                        </p>
+                    <h3 class="text-3xl mb-2 text-white font-semibold leading-normal">
+                        <span class="text-transparent bg-clip-text bg-white">
+                            Areas of Expertise </span>
+                    </h3>
+                    <div>
+                        <h4 class="text-gray-100">People and Organisational Performance:</h4>
+                    </div>
+                    <p class=" text-sm font-light leading-relaxed mt-4 mb-4 text-gray-400">
+                        Talent Management – establish a talent-first organization.
+                    </p>
+                    <div>
+                        <h4 class="text-gray-100">Executive Search &amp; Recruitment:</h4>
+                    </div>
+                    <p class="text-sm font-light leading-relaxed mt-0 mb-4 text-gray-400">
+                        Headhunting - Recruitment/Executive Search - Graduate recruitment -
+                        Recruitment Process Outsourcing (RPO) - Leadership & Behavioral Assessments (On-line).
+                    </p>
+                    <div>
+                        <h4 class="text-gray-100">Reward Management</h4>
+                    </div>
+                    <p class="text-sm font-light leading-relaxed mt-0 mb-4 text-gray-400">
+                        Compensation and Benefits Advisory Services
+                        - Development of Salary Structures
+                        - Payroll Services.</p>
+                    <a href="/pages/services-one" class="font-bold text-gray-500 mt-8">Read More </a>
                     </blockquote>
                 </div>
             </div>
@@ -295,7 +295,7 @@
                 <div class="w-full md:w-5/12 px-12 md:px-4 ml-auto mr-auto md:mt-64">
                     <div
                         class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                        <i class="fa-solid fa-pen-nib text-xl"></i>
+                        <i class="fas fa-handshake text-xl"></i>
                     </div>
                     <h3 class="text-3xl mb-2 font-semibold leading-normal text-clack">Why Partner with us ?
                     </h3>
@@ -382,6 +382,10 @@
                     <img src="{{ asset('assets/images/partners/undp-logo-5682674D5C-seeklogo.com.png') }}"
                         alt="Partner Logo" class="max-h-16">
                 </div>
+                <div class="px-4 py-2 partner-logo">
+                    <img src="{{ asset('assets/images/partners/venture-capital.jpeg') }}" alt="Partner Logo"
+                        class="max-h-16">
+                </div>
                 <!-- End repeat block -->
             </div>
         </div>
@@ -443,38 +447,67 @@
 
                 <div
                     class="card bg-black shadow-md rounded-lg p-6 flex flex-col items-center mb-2 transition-transform transform hover:scale-105">
+                    <?xml version="1.0" encoding="iso-8859-1"?>
+                    <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
                     <svg fill="#ffffff" height="50px" width="50px" version="1.1" id="Layer_1"
                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                        viewBox="0 0 511.986 511.986" xml:space="preserve">
+                        viewBox="0 0 512 512" xml:space="preserve">
                         <g>
                             <g>
-                                <g>
-                                    <path
-                                        d="M170.654,170.652c-35.355,0-64,28.645-64,64c0,35.34,28.65,64,64,64c35.35,0,64-28.66,64-64
-                                        C234.654,199.297,206.009,170.652,170.654,170.652z M170.654,255.986c-11.782,0-21.333-9.554-21.333-21.333
-                                        c0-11.791,9.542-21.333,21.333-21.333s21.333,9.542,21.333,21.333C191.987,246.431,182.436,255.986,170.654,255.986z" />
-                                    <path d="M341.321,63.986c-35.355,0-64,28.645-64,64s28.645,64,64,64s64-28.645,64-64S376.676,63.986,341.321,63.986z
-                                        M341.321,149.319c-11.791,0-21.333-9.542-21.333-21.333s9.542-21.333,21.333-21.333s21.333,9.542,21.333,21.333
-                                        S353.112,149.319,341.321,149.319z" />
-                                    <path d="M314.046,2.825c-50.626,10.526-90.594,52.553-98.965,103.758c-0.421,2.56-0.751,5.122-1.01,7.683
-                                        c-21.626-7.8-45.835-9.955-70.7-4.776c-50.637,10.554-90.596,52.563-98.965,103.758c-4.638,28.395,0.042,56.452,12.934,80.91
-                                        c2.981,5.665,5.474,10.347,10.755,20.223l0.852,1.594c19.541,36.545,28.265,53.879,37.153,75.197l44.862,107.685
-                                        c7.293,17.505,32.091,17.506,39.385,0.002l48.619-116.672c8.674-20.841,17.38-37.76,36.947-73.291l0.917-1.666
-                                        c2.573-4.672,3.955-7.185,5.344-9.719l39.464,94.685c7.295,17.504,32.093,17.501,39.385-0.005l48.597-116.672
-                                        c8.674-20.807,17.295-37.558,36.958-73.296l0.679-1.233c3.219-5.85,4.646-8.448,6.445-11.74
-                                        c10.199-18.615,15.628-39.566,15.628-61.262C469.329,46.958,395.146-14.067,314.046,2.825z M239.456,286.646l-0.918,1.667
-                                        c-20.303,36.867-29.503,54.747-38.961,77.47l-28.92,69.401l-25.174-60.427c-9.585-22.99-18.735-41.171-38.911-78.902
-                                        l-0.853-1.594c-5.237-9.794-7.699-14.416-10.629-19.985c-8.596-16.308-11.709-34.973-8.577-54.148
-                                        c5.53-33.829,32.258-61.928,65.56-68.869c26.85-5.593,52.465,1.449,71.548,16.497c0.198,0.173,0.387,0.355,0.592,0.521
-                                        c17.708,14.319,28.983,34.891,31.321,57.555c0.041,0.409,0.087,0.815,0.123,1.226c0.013,0.146,0.022,0.293,0.034,0.44
-                                        c0.186,2.268,0.285,4.564,0.292,6.885c-0.008,0.25-0.018,0.567-0.03,0.997c0,0.17,0.011,0.338,0.015,0.508
-                                        c-0.199,14.037-3.775,27.514-10.36,39.564C243.9,278.573,242.549,281.03,239.456,286.646z M416.273,168.767
-                                        c-1.785,3.265-3.19,5.823-6.399,11.655l-0.679,1.234c-20.394,37.067-29.5,54.76-38.96,77.451l-28.913,69.414l-25.188-60.431
-                                        c-4.934-11.846-10.481-23.729-17.548-37.843c-0.076-2.222-0.211-4.434-0.4-6.633c-0.057-0.676-0.129-1.347-0.197-2.019
-                                        c-0.04-0.394-0.075-0.789-0.119-1.182c-3.491-31.877-18.568-59.878-40.723-80.124c-1.402-9.021-1.422-17.938,0.036-26.802
-                                        c5.536-33.86,32.267-61.97,65.553-68.89c54.498-11.352,103.924,29.307,103.924,83.391
-                                        C426.663,142.475,423.059,156.381,416.273,168.767z" />
-                                </g>
+                                <polygon
+                                    points="357.871,391.592 287.48,381.364 256,317.577 224.52,381.364 154.129,391.592 205.064,441.242 193.04,511.349
+                                256,478.249 318.96,511.349 306.936,441.242 		" />
+                            </g>
+                        </g>
+                        <g>
+                            <g>
+                                <polygon
+                                    points="512,346.347 451.058,337.491 423.805,282.269 396.55,337.491 335.608,346.347 379.706,389.332 369.296,450.028
+                                423.805,421.372 478.313,450.028 467.902,389.332 		" />
+                            </g>
+                        </g>
+                        <g>
+                            <g>
+                                <polygon
+                                    points="176.392,346.347 115.45,337.491 88.195,282.269 60.942,337.491 0,346.347 44.098,389.332 33.688,450.028
+                                88.195,421.372 142.704,450.028 132.294,389.332 		" />
+                            </g>
+                        </g>
+                        <g>
+                            <g>
+                                <path d="M308.507,182.256c8.547-11.146,13.643-25.07,13.643-40.17c0-36.476-29.675-66.15-66.15-66.15s-66.15,29.674-66.15,66.15
+                                c0,15.1,5.096,29.024,13.644,40.17c-26.469,9.845-45.379,35.362-45.379,65.219v59.184h195.771v-59.184
+                                C353.886,217.619,334.976,192.102,308.507,182.256z" />
+                            </g>
+                        </g>
+                        <g>
+                            <g>
+                                <rect x="240.839" y="0.651" width="30.321" height="50.019" />
+                            </g>
+                        </g>
+                        <g>
+                            <g>
+                                <rect x="158.511" y="34.748"
+                                    transform="matrix(0.7071 -0.7071 0.7071 0.7071 8.6121 140.3069)" width="30.321"
+                                    height="50.019" />
+                            </g>
+                        </g>
+                        <g>
+                            <g>
+                                <rect x="114.562" y="126.923" width="50.019" height="30.321" />
+                            </g>
+                        </g>
+                        <g>
+                            <g>
+                                <rect x="347.416" y="126.923" width="50.019" height="30.321" />
+                            </g>
+                        </g>
+                        <g>
+                            <g>
+
+                                <rect x="313.313" y="44.603"
+                                    transform="matrix(0.7071 -0.7071 0.7071 0.7071 56.8332 256.7344)" width="50.019"
+                                    height="30.321" />
                             </g>
                         </g>
                     </svg>
@@ -484,40 +517,10 @@
 
                 <div
                     class="card bg-black shadow-md rounded-lg p-6 flex flex-col items-center mb-2 transition-transform transform hover:scale-105">
-                    <svg fill="#ffffff" height="50px" width="50px" version="1.1" id="Layer_1"
-                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                        viewBox="0 0 511.986 511.986" xml:space="preserve">
-                        <g>
-                            <g>
-                                <g>
-                                    <path
-                                        d="M170.654,170.652c-35.355,0-64,28.645-64,64c0,35.34,28.65,64,64,64c35.35,0,64-28.66,64-64
-                                        C234.654,199.297,206.009,170.652,170.654,170.652z M170.654,255.986c-11.782,0-21.333-9.554-21.333-21.333
-                                        c0-11.791,9.542-21.333,21.333-21.333s21.333,9.542,21.333,21.333C191.987,246.431,182.436,255.986,170.654,255.986z" />
-                                    <path d="M341.321,63.986c-35.355,0-64,28.645-64,64s28.645,64,64,64s64-28.645,64-64S376.676,63.986,341.321,63.986z
-                                        M341.321,149.319c-11.791,0-21.333-9.542-21.333-21.333s9.542-21.333,21.333-21.333s21.333,9.542,21.333,21.333
-                                        S353.112,149.319,341.321,149.319z" />
-                                    <path d="M314.046,2.825c-50.626,10.526-90.594,52.553-98.965,103.758c-0.421,2.56-0.751,5.122-1.01,7.683
-                                        c-21.626-7.8-45.835-9.955-70.7-4.776c-50.637,10.554-90.596,52.563-98.965,103.758c-4.638,28.395,0.042,56.452,12.934,80.91
-                                        c2.981,5.665,5.474,10.347,10.755,20.223l0.852,1.594c19.541,36.545,28.265,53.879,37.153,75.197l44.862,107.685
-                                        c7.293,17.505,32.091,17.506,39.385,0.002l48.619-116.672c8.674-20.841,17.38-37.76,36.947-73.291l0.917-1.666
-                                        c2.573-4.672,3.955-7.185,5.344-9.719l39.464,94.685c7.295,17.504,32.093,17.501,39.385-0.005l48.597-116.672
-                                        c8.674-20.807,17.295-37.558,36.958-73.296l0.679-1.233c3.219-5.85,4.646-8.448,6.445-11.74
-                                        c10.199-18.615,15.628-39.566,15.628-61.262C469.329,46.958,395.146-14.067,314.046,2.825z M239.456,286.646l-0.918,1.667
-                                        c-20.303,36.867-29.503,54.747-38.961,77.47l-28.92,69.401l-25.174-60.427c-9.585-22.99-18.735-41.171-38.911-78.902
-                                        l-0.853-1.594c-5.237-9.794-7.699-14.416-10.629-19.985c-8.596-16.308-11.709-34.973-8.577-54.148
-                                        c5.53-33.829,32.258-61.928,65.56-68.869c26.85-5.593,52.465,1.449,71.548,16.497c0.198,0.173,0.387,0.355,0.592,0.521
-                                        c17.708,14.319,28.983,34.891,31.321,57.555c0.041,0.409,0.087,0.815,0.123,1.226c0.013,0.146,0.022,0.293,0.034,0.44
-                                        c0.186,2.268,0.285,4.564,0.292,6.885c-0.008,0.25-0.018,0.567-0.03,0.997c0,0.17,0.011,0.338,0.015,0.508
-                                        c-0.199,14.037-3.775,27.514-10.36,39.564C243.9,278.573,242.549,281.03,239.456,286.646z M416.273,168.767
-                                        c-1.785,3.265-3.19,5.823-6.399,11.655l-0.679,1.234c-20.394,37.067-29.5,54.76-38.96,77.451l-28.913,69.414l-25.188-60.431
-                                        c-4.934-11.846-10.481-23.729-17.548-37.843c-0.076-2.222-0.211-4.434-0.4-6.633c-0.057-0.676-0.129-1.347-0.197-2.019
-                                        c-0.04-0.394-0.075-0.789-0.119-1.182c-3.491-31.877-18.568-59.878-40.723-80.124c-1.402-9.021-1.422-17.938,0.036-26.802
-                                        c5.536-33.86,32.267-61.97,65.553-68.89c54.498-11.352,103.924,29.307,103.924,83.391
-                                        C426.663,142.475,423.059,156.381,416.273,168.767z" />
-                                </g>
-                            </g>
-                        </g>
+                    <svg fill="#ffffff" width="50px" height="50px" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M19 4h-2V2h-2v2H9V2H7v2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm-2 8v2H7v-3h10v1zm2-3H5V7h14v2z" />
                     </svg>
                     <h2 class="text-xl text-white font-bold mb-2">25+</h2>
                     <p class="text-white mb-4">Years of experience </p>
