@@ -189,7 +189,8 @@
                         Services </span>
                 </h3>
                 <p class=" text-2xl font-semibold leading-relaxed mt-4 mb-4 text-gray-400">
-                    We partner with you to create an organisation that makes the best of your people so you can realise your strategy today and build on your performance in the future.
+                    We partner with you to create an organisation that makes the best of your people so you can realise
+                    your strategy today and build on your performance in the future.
                 </p>
 
             </div>
@@ -204,31 +205,31 @@
                             </polygon>
                         </svg>
 
-                    <h3 class="text-3xl mb-2 text-white font-semibold leading-normal">
-                        <span class="text-transparent bg-clip-text bg-white">
-                            Areas of Expertise </span>
-                    </h3>
-                    <div>
-                        <h4 class="text-gray-100">People and Organisational Performance:</h4>
-                    </div>
-                    <p class=" text-sm font-light leading-relaxed mt-4 mb-4 text-gray-400">
-                        Talent Management – establish a talent-first organization.
-                    </p>
-                    <div>
-                        <h4 class="text-gray-100">Executive Search &amp; Recruitment:</h4>
-                    </div>
-                    <p class="text-sm font-light leading-relaxed mt-0 mb-4 text-gray-400">
-                        Headhunting - Recruitment/Executive Search - Graduate recruitment -
-                        Recruitment Process Outsourcing (RPO) - Leadership & Behavioral Assessments (On-line).
-                    </p>
-                    <div>
-                        <h4 class="text-gray-100">Reward Management</h4>
-                    </div>
-                    <p class="text-sm font-light leading-relaxed mt-0 mb-4 text-gray-400">
-                        Compensation and Benefits Advisory Services
-                        - Development of Salary Structures
-                        - Payroll Services.</p>
-                    <a href="/pages/services-one" class="font-bold text-gray-500 mt-8">Read More </a>
+                        <h3 class="text-3xl mb-2 text-white font-semibold leading-normal">
+                            <span class="text-transparent bg-clip-text bg-white">
+                                Areas of Expertise </span>
+                        </h3>
+                        <div>
+                            <h4 class="text-gray-100">People and Organisational Performance:</h4>
+                        </div>
+                        <p class=" text-sm font-light leading-relaxed mt-4 mb-4 text-gray-400">
+                            Talent Management – establish a talent-first organization.
+                        </p>
+                        <div>
+                            <h4 class="text-gray-100">Executive Search &amp; Recruitment:</h4>
+                        </div>
+                        <p class="text-sm font-light leading-relaxed mt-0 mb-4 text-gray-400">
+                            Headhunting - Recruitment/Executive Search - Graduate recruitment -
+                            Recruitment Process Outsourcing (RPO) - Leadership & Behavioral Assessments (On-line).
+                        </p>
+                        <div>
+                            <h4 class="text-gray-100">Reward Management</h4>
+                        </div>
+                        <p class="text-sm font-light leading-relaxed mt-0 mb-4 text-gray-400">
+                            Compensation and Benefits Advisory Services
+                            - Development of Salary Structures
+                            - Payroll Services.</p>
+                        <a href="/pages/services-one" class="font-bold text-gray-500 mt-8">Read More </a>
                     </blockquote>
                 </div>
             </div>
@@ -557,16 +558,42 @@
 
     <!-- script -->
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const marquee = document.querySelector('.animate-marquee');
-            const cloneContents = marquee.innerHTML;
-            marquee.innerHTML = cloneContents + cloneContents;
-        });
+       document.addEventListener('DOMContentLoaded', function() {
+        const marquee = document.querySelector('.animate-marquee');
+        const logos = marquee.children;
+
+        // Clone the logos to create a seamless scrolling effect
+        let cloneCount = Math.ceil(window.innerWidth / marquee.scrollWidth); // How many clones to make
+        for (let i = 0; i < cloneCount; i++) {
+            Array.from(logos).forEach(logo => {
+                const clone = logo.cloneNode(true);
+                marquee.appendChild(clone);
+            });
+        }
+
+        // Apply animation via CSS
+        marquee.style.animation = `marquee ${logos.length * 1}s linear infinite`;
+    });
     </script>
     <style>
         .bg-dots {
             background-image: radial-gradient(white 1px, transparent 1px);
             background-size: 20px 20px;
+        }
+
+        .animate-marquee {
+            display: flex;
+            white-space: nowrap;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(100%);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
         }
     </style>
 </body>
